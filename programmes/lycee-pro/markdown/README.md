@@ -1,28 +1,38 @@
-# Générer une mindmap HTML avec Markmap CLI
+# 🧠 Générer une mindmap HTML avec Markmap CLI
 
-## Prérequis
+Bienvenue ! Ce guide vous explique comment transformer vos fichiers Markdown en cartes mentales interactives et accessibles sur le web, en toute simplicité 🚀
 
-- Node.js installé sur votre machine
+## ⚡ Utilisation rapide de markmap-cli
 
-## Installation de markmap-cli
+Pour transformer un fichier Markdown en mindmap interactive HTML, utilise l’outil officiel [markmap-cli](https://markmap.js.org/docs/packages--markmap-cli#usage).
 
-```bash
-npm install -g markmap-cli
-```
-
-## Générer un fichier HTML à partir d'un fichier Markdown
-
-Placez-vous dans le dossier contenant votre fichier `.md` puis exécutez :
+### ⚙️ Commande rapide sans installation
 
 ```bash
-markmap <votre-fichier>.md
+npx markmap-cli <votre-fichier>.md
 ```
 
-Cela va générer un fichier `<votre-fichier>.html` interactif.
+### 🛠️ Options utiles
 
-## Astuce : auto-resize de la mindmap
+- `--no-open` : ne pas ouvrir le fichier après génération
+- `-o <nom-fichier.html>` : spécifier le nom du fichier de sortie
+- `--offline` : générer un HTML utilisable hors-ligne
 
-Pour que la carte mentale s'adapte automatiquement à la taille de la fenêtre lors d'un clic sur un nœud, ajoutez le script suivant juste avant la balise `</body>` dans le fichier HTML généré :
+### 📦 Exemples
+
+```bash
+npx markmap-cli programmes/lycee-pro/markdown/geo.md
+npx markmap-cli programmes/lycee-pro/markdown/geo.md -o programmes/lycee-pro/html/geo.html --offline
+```
+
+Pour plus d’options et d’exemples, consulte la documentation officielle :
+https://markmap.js.org/docs/packages--markmap-cli#usage
+
+---
+
+## 💡 Astuce : auto-resize de la mindmap
+
+Pour que la carte mentale s'adapte automatiquement à la taille de la fenêtre lors d'un clic sur un nœud, ajoutez le script suivant juste avant la balise `</body>` dans le fichier HTML généré :
 
 ```html
 <script>
@@ -49,3 +59,21 @@ Pour que la carte mentale s'adapte automatiquement à la taille de la fenêtre l
 ```
 
 Copiez ce bloc dans chaque fichier HTML généré pour une meilleure expérience utilisateur.
+
+---
+
+## 🏠 Ajouter un lien retour vers l'accueil
+
+Pour faciliter la navigation, vous pouvez ajouter un lien vers la page d'accueil (`index.html`) dans chaque fichier HTML généré.
+
+Ajoutez le bloc suivant **juste après l'ouverture de la balise `<body>`** :
+
+```html
+<a
+  href="/index.html"
+  style="position: absolute; left: 1rem; top: 1rem; z-index: 10; text-decoration: none; font-size: 1.2rem; background: #fff; border-radius: 9999px; padding: 0.3em 0.8em; box-shadow: 0 1px 4px #0001; border: 1px solid #eee; color: #222;"
+  >🏠 Accueil</a
+>
+```
+
+Cela permet à l'utilisateur de revenir facilement à la page principale depuis n'importe quelle mindmap.
