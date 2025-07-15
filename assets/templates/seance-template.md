@@ -1,4 +1,4 @@
-# Séance # - { Titre de la séance }
+# Séance [n°] - [Titre de la séance]
 
 ### 🎯 Objectif pédagogique :
 
@@ -24,7 +24,7 @@ _À compléter..._
 
 ---
 
-## **1️⃣ Déroulé pédagogique – 1 h 30**
+## **1️⃣ Déroulé pédagogique – 1h**
 
 _Tu peux détailler ici phase par phase : entrée, central, structuration, clôture._
 
@@ -32,7 +32,7 @@ _Tu peux détailler ici phase par phase : entrée, central, structuration, clôt
 
 ## **2️⃣ Leçon complète (contenu disciplinaire)**
 
-_Colle ou rédige ici le contenu d’histoire ou de géographie attendu._
+_Colle ou rédige ici le contenu disciplinaire attendu._
 
 ---
 
