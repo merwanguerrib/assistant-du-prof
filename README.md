@@ -15,8 +15,14 @@ Bienvenue sur le dépôt _Assistant du Prof_ ! Ce projet vise à faciliter l’a
 ## 🗂️ Structure du site
 
 - **index.html** : page d’accueil avec navigation par cartes (Histoire, Géo, Lettres)
+- **assets/** : exemples de séquences, prompts, templates pour la création de ressources pédagogiques
+- **geo/** : séquences, séances et ressources pour la Géographie (Seconde, Première)
+- **histoire/** : séquences, séances et ressources pour l’Histoire (Seconde, Première, Terminale)
+- **lettres/** : ressources et documents pour le Français (fiches, annexes)
+- **metacognition/** : séances et ressources pour l’apprentissage de la métacognition
 - **programmes/lycee-pro/html/** : fichiers HTML interactifs pour chaque matière
 - **programmes/lycee-pro/markdown/** : sources Markdown et documentation
+- **programmes/lycee-pro/pdf/** : programmes officiels et annexes au format PDF
 
 ---
 
