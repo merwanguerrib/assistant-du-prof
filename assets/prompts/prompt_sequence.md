@@ -109,4 +109,4 @@ Merci de renseigner :
 
 ---
 
-**Ta réponse doit être sous la forme d'un lien de téléchargement du fichier md produit, et d'un aperçu de son contenu dans un bloc markdown.**
+**Ta réponse doit être sous la forme d'un fichier markdown dans le sous-dossier qui correspond au niveau et au thème de la séquence.**

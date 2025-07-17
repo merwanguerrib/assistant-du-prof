@@ -1,10 +1,10 @@
-# Séquence pédagogique – (Titre de la séquence)
+# (Titre de la séquence)
 
-**Titre de la séquence :**  
-**Niveau / classe :**  
-**Thème / chapitre :**  
-**Durée totale / Nombre de séances :**  
-**Problématique / question centrale :**  
+**Titre de la séquence :** (Titre de la séquence)
+**Niveau / classe :** (Seconde Pro, Première Pro, Terminale Pro)
+**Thème / chapitre :** (Titre du thème ou du chapitre)
+**Durée totale / Nombre de séances :** (Durée totale de la séquence, nombre de séances)
+**Problématique / question centrale :** (Problématique ou question centrale de la séquence)
 **Objectifs pédagogiques généraux :**
 
 - –

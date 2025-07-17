@@ -69,6 +69,68 @@
 
 ---
 
+## 📑 Propriétés de la base Notion « Séquences Pédagogiques »
+
+Voici la liste des propriétés disponibles dans la base Notion utilisée pour les séquences pédagogiques (ID : 1f2b90577c8180f5b3a2e774c376be6a) :
+
+| Nom de la propriété  | Type         | Description                                                                |
+| -------------------- | ------------ | -------------------------------------------------------------------------- |
+| Titre de la séquence | title        | Titre principal de la séquence (obligatoire)                               |
+| Durée                | rich_text    | Durée indicative de la séquence                                            |
+| Numéro               | number       | Numéro d’ordre de la séquence                                              |
+| Problématique        | rich_text    | Problématique ou question centrale de la séquence                          |
+| Matière              | multi_select | Matière(s) concernée(s) (ex : Géo, Histoire, Lettres, Metacognition, etc.) |
+| Séances liées        | relation     | Lien vers les séances associées (relation avec une autre base Notion)      |
+| Classe               | multi_select | Niveau(x) concerné(s) (ex : CAP, Seconde Pro, Première Pro, Terminale Pro) |
+| Thème                | rich_text    | Thème ou axe principal de la séquence                                      |
+| Ordre classe         | formula      | Calcul automatique pour trier les séquences par niveau                     |
+
+> **Remarque** : Toute propriété doit être renseignée selon son type. Les propriétés multi_select acceptent plusieurs valeurs. La propriété « Séances liées » est une relation avec la base des séances pédagogiques.
+
+---
+
+## 🗂️ Mapping détaillé des propriétés Notion (bases Séquences & Séances)
+
+### Base « Séquences Pédagogiques » (ID : 1f2b90577c8180f5b3a2e774c376be6a)
+
+| Propriété            | Type         | Valeurs possibles / Détail                                                     |
+| -------------------- | ------------ | ------------------------------------------------------------------------------ |
+| Titre de la séquence | title        | Texte libre                                                                    |
+| Durée                | rich_text    | Texte libre                                                                    |
+| Numéro               | number       | Nombre                                                                         |
+| Problématique        | rich_text    | Texte libre                                                                    |
+| Matière              | multi_select | Lettres (orange), Géo (green), Histoire (red), Metacognition (blue)            |
+| Séances liées        | relation     | Relation vers la base « Séances » (ID : 1f2b90577c8180299537d3067cb51d00)      |
+| Classe               | multi_select | CAP (brown), Seconde Pro (yellow), Première Pro (pink), Terminale Pro (purple) |
+| Thème                | rich_text    | Texte libre                                                                    |
+| Ordre classe         | formula      | Calcul automatique (voir base Notion)                                          |
+
+**Détail des valeurs multi-select :**
+
+- **Matière** : Lettres (orange), Géo (green), Histoire (red), Metacognition (blue), Géographie (gray)
+- **Classe** : CAP (brown), Seconde Pro (yellow), Première Pro (pink), Terminale Pro (purple)
+
+---
+
+### Base « Séances » (ID : 1f2b90577c8180299537d3067cb51d00)
+
+| Propriété          | Type         | Valeurs possibles / Détail                                                               |
+| ------------------ | ------------ | ---------------------------------------------------------------------------------------- |
+| Titre de la séance | title        | Texte libre                                                                              |
+| Durée              | rich_text    | Texte libre                                                                              |
+| Séquence liée      | relation     | Relation vers la base « Séquences Pédagogiques » (ID : 1f2b90577c8180f5b3a2e774c376be6a) |
+| Classe             | multi_select | CAP (brown), Seconde Pro (yellow), Première Pro (pink), Terminale Pro (purple)           |
+| Matière            | multi_select | Lettres (orange), Géo (green), Histoire (red), Metacognition (blue)                      |
+
+**Détail des valeurs multi-select :**
+
+- **Matière** : Lettres (orange), Géo (green), Histoire (red), Metacognition (blue)
+- **Classe** : CAP (brown), Seconde Pro (yellow), Première Pro (pink), Terminale Pro (purple)
+
+> **Remarque :** Pour chaque propriété multi_select, la valeur doit correspondre exactement à l’un des noms listés ci-dessus (respecter la casse et l’orthographe). Pour les relations, utiliser l’ID de la base cible indiqué.
+
+---
+
 ## 3. **Validation et correction du JSON**
 
 ### **Étapes de validation**
@@ -102,9 +164,43 @@
 - **Erreur 400** : souvent causée par un mauvais mapping du bloc `table` (voir plus haut).
 - **Erreur 404** : l’ID de la base n’est pas accessible ou n’existe pas, ou l’intégration n’a pas les droits.
 
+### 🧪 Icône et cover par défaut pour les pages Séquences Pédagogiques
+
+Pour toute nouvelle page créée dans la base « Séquences Pédagogiques » (ID : 1f2b90577c8180f5b3a2e774c376be6a), il est **obligatoire** d’ajouter :
+
+- **Icône** : emoji `🧪`
+- **Cover** : image couleur unie (exemple : https://singlecolorimage.com/get/4F8A8B/1200x300)
+
+**Processus de création :**
+
+1. **POST initial** : Créer la page sans l'icône et la cover.
+```json
+{
+  "parent": { "database_id": "1f2b90577c8180f5b3a2e774c376be6a" },
+  "properties": { ... },
+  "children": [ ... ]
+}
+```
+2. **PATCH** : Ajouter l'icône et la cover à la page créée.
+```json
+{
+  "icon": { "emoji": "🧪" },
+  "cover": { "external": { "url": "https://singlecolorimage.com/get/4F8A8B/1200x300" } }
+}
+```
+
+> **Ne jamais omettre ces champs lors de la création d’une page Séquence.**
+
 ---
 
 ## 5. **Bonnes pratiques et points de vigilance**
+
+### ⚠️ Avertissement : POST Notion sans children
+
+**Ne jamais envoyer un POST de création de page Notion sans le champ `children` correctement renseigné.**
+
+- Si le payload POST ne contient pas les blocs de contenu (`children`), la page sera créée vide (hors propriétés) et il faudra PATCH pour ajouter le contenu, ce qui fait perdre du temps et complexifie le workflow.
+- Toujours générer et valider le mapping markdown → Notion blocks avant le POST.
 
 - **Toujours valider la structure du JSON** avant envoi.
 - **Respecter strictement le template Notion** (voir `sequence-template.notion.json`).
