@@ -1,0 +1,1489 @@
+{
+    "parent": {
+        "database_id": "1f2b90577c8180f5b3a2e774c376be6a"
+    },
+    "icon": {
+        "emoji": "🧪"
+    },
+    "cover": {
+        "external": {
+            "url": "https://singlecolorimage.com/get/4F8A8B/1200x300"
+        }
+    },
+    "properties": {
+        "Titre de la séquence": {
+            "title": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Séquence pédagogique – L’accès aux ressources pour produire, consommer, se loger et se déplacer"
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    }
+                }
+            ]
+        },
+        "Classe": {
+            "multi_select": [
+                {
+                    "name": "Terminale Pro"
+                }
+            ]
+        },
+        "Thème": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Thème 1 – L’accès aux ressources pour produire, consommer, se loger et se déplacer"
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    }
+                }
+            ]
+        },
+        "Durée": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "5 séances (adaptable selon progression)"
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    }
+                }
+            ]
+        },
+        "Problématique": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Comment les sociétés font-elles face à la pression croissante sur les ressources et quels aménagements pour un développement durable ?"
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    }
+                }
+            ]
+        },
+        "Matière": {
+            "multi_select": [
+                {
+                    "name": "Géographie"
+                }
+            ]
+        },
+        "Numéro": {
+            "number": 1
+        }
+    },
+    "children": [
+        {
+            "object": "block",
+            "type": "heading_1",
+            "heading_1": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Séquence pédagogique – L’accès aux ressources pour produire, consommer, se loger et se déplacer"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Titre de la séquence :"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " L’accès aux ressources pour produire, consommer, se loger et se déplacer"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Niveau / classe :"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " Terminale Pro"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Thème / chapitre :"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " Thème 1 – L’accès aux ressources pour produire, consommer, se loger et se déplacer"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Durée totale / Nombre de séances :"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " 5 séances (adaptable selon progression)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Problématique / question centrale :"
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " Comment les sociétés font-elles face à la pression croissante sur les ressources et quels aménagements pour un développement durable ?"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Objectifs pédagogiques généraux :"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Comprendre la pression sur les ressources à différentes échelles"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Identifier les enjeux du développement durable et des ODD"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Analyser des situations concrètes d’accès, de gestion et de conflits d’usage des ressources"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Compétences visées (issues du programme) :"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Raconter l’engagement d’un acteur local dans la gestion d’une ressource"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Réaliser le croquis d’un aménagement intégrant un ou plusieurs ODD"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Produire une carte simple illustrant la vulnérabilité d’un territoire face à un risque"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Construire un argumentaire sur l’intérêt d’un plan de prévention des risques ou d’un projet d’aménagement durable"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "divider",
+            "divider": {}
+        },
+        {
+            "object": "block",
+            "type": "heading_2",
+            "heading_2": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tableau des séances"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "table",
+            "table": {
+                "table_width": 7,
+                "has_column_header": true,
+                "has_row_header": false,
+                "children": [
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Titre de la séance"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Problématique / Question"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Objectifs / Compétences"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Notions clé"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Activité(s) élève(s)"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Support(s) / Document(s)"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Justification du document / Modalités d’évaluation"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "1. Pression sur les ressources"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Pourquoi la pression sur les ressources s’accroît-elle ?"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Comprendre la notion de pression sur les ressources, distinguer ressources renouvelables/non renouvelables"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Pression, ressources, croissance démographique, développement"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Analyse de documents, débat, schéma"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Extraits de la fiche, graphiques, vidéos ODD"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "QCM, restitution orale"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "2. Conflits d’usage et gestion locale"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Comment les conflits d’usage émergent-ils et sont-ils gérés ?"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Analyser un conflit d’usage, identifier les acteurs"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Conflit d’usage, acteurs, gestion locale"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Étude de cas, jeu de rôle"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Étude de cas locale, articles, vidéos"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Fiche d’étude de cas, restitution écrite"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "3. Aménagement durable et ODD"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Comment aménager durablement un territoire ?"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Réaliser un croquis d’aménagement, intégrer les ODD"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Aménagement, ODD, développement durable"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Croquis, travail de groupe"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Cartes, croquis, documents ODD"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Croquis annoté, présentation orale"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "4. Mobilités et nouvelles formes d’habiter"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Quelles adaptations face aux changements globaux ?"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Comprendre les mobilités, analyser les adaptations"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Mobilités, adaptation, changements globaux"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Analyse de situations, exposé"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Exemples concrets, vidéos, témoignages"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Exposé, QCM"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "object": "block",
+                        "type": "table_row",
+                        "table_row": {
+                            "cells": [
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "5. Projet final : Imaginer un aménagement concerté"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Comment répondre à un défi local par un projet d’aménagement ?"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Imaginer un projet d’aménagement, argumenter"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Projet, concertation, développement durable"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Projet collectif, argumentation"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": "Dossier projet, supports variés"
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "text",
+                                        "text": {
+                                            "content": ""
+                                        },
+                                        "annotations": {
+                                            "bold": false,
+                                            "italic": false,
+                                            "strikethrough": false,
+                                            "underline": false,
+                                            "code": false,
+                                            "color": "default"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "divider",
+            "divider": {}
+        },
+        {
+            "object": "block",
+            "type": "heading_2",
+            "heading_2": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Modalités de différenciation pédagogique"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "- Groupes de besoins pour l’étude de cas et le projet final\n- Supports variés (textes, vidéos, schémas)\n- Aide méthodologique pour la réalisation de croquis et d’argumentaires\n- Adaptation des consignes et des attendus selon le niveau des élèves"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "heading_2",
+            "heading_2": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Projet / production finale (le cas échéant)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Projet collectif : Imaginer et présenter un projet d’aménagement durable répondant à un défi local (gestion de l’eau, des déchets, mobilité, etc.), intégrant les ODD et la concertation des acteurs."
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "heading_2",
+            "heading_2": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Justification pédagogique synthétique"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Cette séquence permet d’aborder de façon progressive et concrète les enjeux contemporains liés à l’accès aux ressources, en mobilisant des situations locales et globales. Elle favorise l’acquisition de compétences transversales (argumentation, cartographie, travail de groupe) et l’engagement des élèves dans une réflexion sur le développement durable."
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "heading_2",
+            "heading_2": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ressources complémentaires suggérées"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Vidéos sur les ODD (Nations Unies, Lumni)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Études de cas locales (collectivités, ONG)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Plateformes de cartographie participative (OpenStreetMap, Géoportail)"
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

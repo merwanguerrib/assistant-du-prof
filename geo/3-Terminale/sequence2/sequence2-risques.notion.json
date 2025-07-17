@@ -1,0 +1,389 @@
+{
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "Séquence pédagogique – Les sociétés et les risques : anticiper, réagir, se coordonner et s’adapter" },
+            "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Titre de la séquence :" }, "annotations": { "bold": true, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } },
+          { "type": "text", "text": { "content": " Les sociétés et les risques : anticiper, réagir, se coordonner et s’adapter" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Niveau / classe :" }, "annotations": { "bold": true, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } },
+          { "type": "text", "text": { "content": " Terminale Bac Pro" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Thème / chapitre :" }, "annotations": { "bold": true, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } },
+          { "type": "text", "text": { "content": " Thème 2 – Les hommes face aux changements globaux" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Durée totale / Nombre de séances :" }, "annotations": { "bold": true, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } },
+          { "type": "text", "text": { "content": " 7 séances (environ 12-14h)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Problématique / question centrale :" }, "annotations": { "bold": true, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } },
+          { "type": "text", "text": { "content": " Comment les sociétés font-elles face aux risques majeurs et s’adaptent-elles aux changements globaux ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Objectifs pédagogiques généraux :" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Comprendre la notion de risque en géographie (aléa, vulnérabilité, catastrophe)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Analyser la gestion multiscalaire des risques et la résilience des territoires" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Identifier les acteurs et les politiques de prévention" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Compétences visées (issues du programme) :" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Situer un risque climatique et justifier l’organisation de sa gestion" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Analyser un traitement médiatique d’un aléa ou risque" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Réaliser une production cartographique simple montrant la vulnérabilité d’un territoire" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Construire un argumentaire sur l’intérêt d’un plan de prévention des risques" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Tableau des séances" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "table",
+      "table": {
+        "table_width": 7,
+        "has_column_header": true,
+        "has_row_header": false,
+        "children": [
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "Titre de la séance" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Problématique / Question" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Objectifs / Compétences" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Notions clé" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Activité(s) élève(s)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Support(s) / Document(s)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Justification du document / Modalités d’évaluation" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "1. Introduction : Définitions et enjeux" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Qu’est-ce qu’un risque ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Définir risque, aléa, vulnérabilité" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Risque, aléa, vulnérabilité, catastrophe" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Brainstorming, analyse de documents" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Extraits de manuels, schémas" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "QCM, restitution orale" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "2. Étude de cas : Fukushima/Katrina" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Comment un aléa devient-il une catastrophe ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Analyser un cas de catastrophe majeure" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Catastrophe, gestion de crise" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Étude de cas, analyse de documents" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Dossiers sur Fukushima/Katrina" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Fiche d’analyse, restitution écrite" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "3. Gestion des risques et acteurs" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Qui gère les risques et comment ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Identifier les acteurs, comprendre les plans de prévention" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Acteurs, plans de prévention, gestion de crise" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Analyse de documents, débat" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Documents institutionnels, vidéos" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Présentation orale, débat" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "4. Cartographie de la vulnérabilité" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Comment représenter la vulnérabilité d’un territoire ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Réaliser une carte simple" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Vulnérabilité, cartographie" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Activité cartographique" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Cartes, SIG, données INSEE" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Production cartographique" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "5. Analyse médiatique d’un aléa" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Comment les médias traitent-ils les risques ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Analyser un traitement médiatique" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Médias, perception du risque" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Analyse de presse, débat" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Articles, reportages" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Fiche d’analyse, débat" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "6. AP : Remédiation et approfondissement" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Quelles difficultés et approfondissements ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Consolider les acquis, remédier" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Révision, approfondissement" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Quiz, exercices, remédiation" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Exercices, quiz, supports variés" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Quiz, exercices corrigés" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "table_row",
+            "table_row": {
+              "cells": [
+                [ { "type": "text", "text": { "content": "7. Synthèse et argumentaire" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Les politiques publiques sont-elles efficaces ?" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Construire un argumentaire, synthétiser" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Politiques publiques, résilience" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Rédaction d’un argumentaire, synthèse" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Documents de synthèse, études de cas" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ],
+                [ { "type": "text", "text": { "content": "Argumentaire écrit, oral" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } } ]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Modalités de différenciation pédagogique" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "- Groupes de besoin pour l’AP\n- Supports variés (textes, schémas, vidéos)\n- Adaptation des activités (guides, aides, extension)\n- Évaluation formative régulière" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Projet / production finale (le cas échéant)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "- Rédaction d’un argumentaire sur l’efficacité d’une politique publique de gestion des risques, à partir d’une étude de cas réelle" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Justification pédagogique synthétique" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Cette séquence permet d’aborder la notion de risque de façon systémique et multiscalaire, en mobilisant des études de cas concrètes et des activités variées. Elle développe l’esprit critique des élèves face aux médias et aux politiques publiques, tout en consolidant des compétences transversales (cartographie, argumentation, analyse documentaire)." }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Ressources complémentaires suggérées" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Vidéos Lumni sur les risques majeurs" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Dossiers éduscol sur la gestion des risques" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Cartes interactives (INSEE, SIG)" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Articles de presse récents sur des catastrophes naturelles" }, "annotations": { "bold": false, "italic": false, "strikethrough": false, "underline": false, "code": false, "color": "default" } }
+        ]
+      }
+    }
+  ]
+} 
