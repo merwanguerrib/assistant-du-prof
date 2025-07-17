@@ -174,6 +174,7 @@ Pour toute nouvelle page créée dans la base « Séquences Pédagogiques » (ID
 **Processus de création :**
 
 1. **POST initial** : Créer la page sans l'icône et la cover.
+
 ```json
 {
   "parent": { "database_id": "1f2b90577c8180f5b3a2e774c376be6a" },
@@ -181,11 +182,15 @@ Pour toute nouvelle page créée dans la base « Séquences Pédagogiques » (ID
   "children": [ ... ]
 }
 ```
+
 2. **PATCH** : Ajouter l'icône et la cover à la page créée.
+
 ```json
 {
   "icon": { "emoji": "🧪" },
-  "cover": { "external": { "url": "https://singlecolorimage.com/get/4F8A8B/1200x300" } }
+  "cover": {
+    "external": { "url": "https://singlecolorimage.com/get/4F8A8B/1200x300" }
+  }
 }
 ```
 
@@ -223,11 +228,11 @@ Pour toute nouvelle page créée dans la base « Séquences Pédagogiques » (ID
 
 ```mermaid
 graph TD
-    A[Prompt utilisateur (programme + fiches)] --> B[Génération séquence markdown]
-    B --> C[Mapping markdown → JSON Notion]
-    C --> D[Validation structure JSON]
-    D --> E[Publication dans Notion (API MCP)]
-    E --> F[Contrôle visuel et correctifs]
+    prompt[Prompt utilisateur programme + fiches] --> generate[Generation sequence markdown]
+    generate --> mapping[Mapping markdown vers JSON Notion]
+    mapping --> validate[Validation structure JSON]
+    validate --> publish[Publication dans Notion API MCP]
+    publish --> control[Controle visuel et correctifs]
 ```
 
 ---
