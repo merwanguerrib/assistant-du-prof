@@ -240,8 +240,15 @@ graph TD
 ## 8. **Ressources utiles**
 
 - [Documentation Notion API](https://developers.notion.com/reference/post-page)
-- [Template Notion JSON du projet](../assets/templates/sequence-template.notion.json)
+- [Template Notion JSON du projet](../assets/templates/sequence-template-updated.notion.json)
+- [Template markdown de séquence](../assets/templates/sequence-template.md)
+- [Template markdown de séance](../assets/templates/seance-template.md)
 - [Prompt de génération séquence](../assets/prompts/prompt_sequence.md)
+- [Prompt de génération séance](../assets/prompts/prompt_seances.md)
+- [README du projet](../README.md)
+- [PLANNING.md](../PLANNING.md)
+- [TASK.md](../TASK.md)
+- [PRD.md](../PRD.md)
 
 ---
 
