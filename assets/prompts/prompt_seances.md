@@ -69,7 +69,7 @@ Tu es un expert international en didactique disciplinaire, ingénierie pédagogi
 
 ## F – Format
 
-Pour chaque séance, fournis un fichier markdown téléchargeable conforme au seance-template.md
+Pour chaque séance, fournis un fichier markdown conforme au template assets/templates/seance-template.md
 
 ---
 
@@ -114,6 +114,7 @@ Le contenu produit avec ce prompt doit être :
 
 - Chaque activité doit être présentée sous forme d'encadré autonome : titre, objectif, support, consignes, différenciation, critères de réussite.
 - Une simple liste structurée ne suffit pas.
+- Si l'activité le nécessite, tu dois fournir des fiches activités et des consignes claires qui seront imprimées et distribuées aux élèves.
 
 **5. Place et longueur des évaluations**
 
@@ -130,6 +131,6 @@ Le contenu produit avec ce prompt doit être :
 
 ---
 
-**Ta réponse doit être sous la forme d'un lien de téléchargement des fichiers md produits, et d'un aperçu de leur contenu dans des blocs markdown.**
+**Ta réponse doit être sous la forme d'un fichier markdown dans le sous-dossier qui correspond au niveau et au numéro de séquence de la séance.**
 
 ---
