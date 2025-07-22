@@ -396,3 +396,66 @@ graph TD
 
 **Ce workflow garantit la conformité, la traçabilité et la robustesse de la génération et publication de séquences et séances pédagogiques dans Notion.**
 _Mise à jour à chaque évolution du template ou du process recommandée._
+
+---
+
+## 9. Évolution future : vers une webapp complète
+
+### Objectif
+
+Permettre à tout utilisateur de générer, corriger et exporter des séquences et séances pédagogiques à partir de programmes officiels (PDF) ou de fiches détaillées, via une interface web simple et accessible.
+
+### Fonctionnalités clés envisagées
+
+- **Import de documents** : Upload de PDF de programme officiel ou de fiches détaillées.
+- **Synthèse automatique** : Utilisation de Perplexity pour générer une synthèse structurée (niveaux, thèmes, compétences) à partir des documents importés.
+- **Génération assistée** : Génération automatique des séquences et séances pédagogiques à partir de la synthèse, via OpenAI o3.
+- **Prévisualisation et correction** : Interface utilisateur permettant de prévisualiser, corriger ou enrichir les séquences/séances générées à l’aide de prompts personnalisés.
+- **Validation utilisateur** : L’utilisateur valide chaque séquence ou séance avant export.
+- **Export local multi-format** : Téléchargement des séquences et séances validées au format de son choix (doc, md, txt).
+- **Historique et suivi** : Tableau de bord pour suivre l’avancement, l’historique des générations, et gérer les corrections.
+
+### Architecture cible (extrait du diagramme de séquence)
+
+```mermaid
+sequenceDiagram
+    participant U as Utilisateur
+    participant W as WebApp
+    participant PX as Perplexity
+    participant O3 as OpenAI o3
+
+    U->>W: Upload PDF programme officiel ou fiches détaillées
+    W->>PX: Prompt générique pour synthèse programme/fiches
+    PX-->>W: Synthèse structurée (niveaux, thèmes, compétences)
+    W->>O3: Générer séquences (à partir de la synthèse)
+    O3-->>W: Séquences générées (markdown, doc, txt)
+    W->>U: Prévisualisation séquences
+    alt L'utilisateur souhaite corriger
+        U->>W: Correction via prompt
+        W->>O3: Générer nouvelle version séquences
+        O3-->>W: Séquences corrigées
+        W->>U: Nouvelle prévisualisation
+    end
+    U->>W: Validation séquences
+    W->>O3: Générer séances (à partir des séquences validées)
+    O3-->>W: Séances générées (markdown, doc, txt)
+    W->>U: Prévisualisation séances
+    alt L'utilisateur souhaite corriger
+        U->>W: Correction via prompt
+        W->>O3: Générer nouvelle version séances
+        O3-->>W: Séances corrigées
+        W->>U: Nouvelle prévisualisation
+    end
+    U->>W: Validation séances
+    U->>W: Choix du format d'export (doc, md, txt)
+    W-->>U: Téléchargement du fichier généré
+```
+
+### Perspectives
+
+- **Accessibilité** : Application utilisable sans connaissance technique, ouverte à tous les enseignants.
+- **Extensibilité** : Possibilité d’ajouter d’autres formats d’import/export, de nouveaux modèles d’IA, ou des modules collaboratifs.
+- **Sécurité & confidentialité** : Traitement local ou cloud sécurisé, respect des données utilisateurs.
+- **Interopérabilité** : Intégration future possible avec d’autres plateformes (ENT, LMS, etc.).
+
+> Cette évolution vise à démocratiser la génération de séquences et séances pédagogiques assistée par IA, tout en garantissant contrôle, personnalisation et simplicité d’usage.
